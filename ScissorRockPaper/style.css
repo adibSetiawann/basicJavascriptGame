@@ -1,0 +1,27 @@
+.draw {
+    background-color: rgb(255, 224, 47);
+    color: rgb(77, 74, 74);
+    width: 120px;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.win {
+    background-color: rgb(47, 255, 64);
+    color: aliceblue;
+    width: 120px;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.lose {
+    background-color: rgb(214, 32, 0);
+    color: aliceblue;
+    width: 120px;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px 15px;
+    font-weight: bold;
+}

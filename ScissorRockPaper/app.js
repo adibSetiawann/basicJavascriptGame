@@ -32,25 +32,25 @@ function generatecomputerChoice() {
 // displaying result
 function generateResult() {
   if (userChoice === computerChoice) {
-    result = "its a draw!";
+    result = "<h2 class='draw'> Its draw!</h2>";
   }
   if (userChoice == "rock" && computerChoice == "paper") {
-    result = "you lose!";
+    result = "<h2 class='lose'> You lose! :(</h2>";
   }
   if (userChoice == "rock" && computerChoice == "scissor") {
-    result = "you win!";
+    result = "<h2 class='win'> You win! </h2>";
   }
   if (userChoice == "paper" && computerChoice == "scissor") {
-    result = "you lose!";
+    result = "<h2 class='lose'> You lose! :(</h2>";
   }
   if (userChoice == "paper" && computerChoice == "rock") {
-    result = "you win!";
+    result = "<h2 class='win'> You win!</h2>";
   }
   if (userChoice == "scissor" && computerChoice == "rock") {
-    result = "you lose!";
+    result = "<h2 class='lose'> You lose! :(</h2>"
   }
   if (userChoice == "scissor" && computerChoice == "paper") {
-    result = "you win!";
+    result = "<h2 class='win'> You win!</h2>";
   }
   resultDisplay.innerHTML = result;
 }
